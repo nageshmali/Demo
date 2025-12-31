@@ -19,7 +19,7 @@ function App() {
   const [error, setError] = useState(null);
   const [debugInfo, setDebugInfo] = useState(null); // NEW: Debug info
 
-  const API_URL = 'http://localhost:5000/api/articles';
+  const API_URL = 'https://demo-cqpf.onrender.com/api/articles';
 
   // ============================================
   // FETCH ARTICLES FROM API
