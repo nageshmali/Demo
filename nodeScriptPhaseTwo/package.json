@@ -1,0 +1,19 @@
+{
+  "name": "article-enhancer",
+  "version": "1.0.0",
+  "description": "AI article enhancement for SEO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["article", "seo", "ai", "groq"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.3.2",
+    "puppeteer": "^21.6.1"
+  }
+}
